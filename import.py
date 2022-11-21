@@ -1,4 +1,4 @@
-from claseprofile import Profile
+from ProfileCreation import Profile
 
 def main():
     profile=Profile
@@ -9,3 +9,5 @@ def main():
     created_at=input("ingrese su fecha de ingreso=")
     mail=input("ingrese su mail=")
     is_premium=input("indique si su pagara por cuenta premium=")
+    cellphone=input("ingrese su numero de telefono=")
+    password=input("indique si contraseña=")
