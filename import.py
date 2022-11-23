@@ -1,7 +1,6 @@
 from ProfileCreation import Profile
 
 def main():
-    profile=Profile
     id=input("ingrese el id=")
     nickname=input("ingrese su nickname=")
     avatar=input("diseñe su avatar=")
