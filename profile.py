@@ -1,4 +1,4 @@
-class ProfileCreation:
+class Profile:
     
     def __init__(self,id,nickname,avatar,created_at,mail,cellphone,password,status="online",is_premium=False): 
         self.id=id
@@ -18,4 +18,3 @@ class ProfileCreation:
         print("tu telefono es:", self.cellphone)
         print("tu e-mail es:", self.mail)
         print("tu status actual es:", self.status)
-        
